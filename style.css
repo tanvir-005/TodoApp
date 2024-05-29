@@ -1,0 +1,106 @@
+* {
+    font-family: Segoe UI;
+}body {
+    margin: 0;
+    background-color: #202020;
+}.full {
+    background-color: #f0f0f0;
+    height: auto;
+    width: 400px;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}.full h3 {
+    color: #202020;
+    margin: auto;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #e0e0e0;
+    width: 70%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 1em;
+    height: 30px;
+}
+
+
+
+.todos, .inputarea {
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+    margin: 20px auto 0 auto;
+    border: none;
+    border-style: none;
+    border-radius: 5px;
+}.todos{
+    background-color: #202020;
+    position: relative;
+    overflow: auto;
+}
+
+
+
+.dd {
+    height: 40px;
+    width: 80px;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+}
+.dd button {
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    border: none;
+    padding: 0;
+    margin: 5px;
+}.tick{
+    font-size: 1.2em;
+    background-color: #00D26A;
+}.cross{
+    font-size: 0.7em;
+    background-color: #f0f0f0;
+}
+
+
+
+.note {
+    color: white;
+    width: auto;
+    line-height: 40px;
+    margin: 0;
+    padding: 0 8px 0 8px;
+    text-align: justify;
+}
+
+
+.take {
+    height: 40px;
+    display: block;
+    background-color: #e0e0e0;
+    color: #202020;
+    font-weight: bold;
+    width: 300px;
+    padding-left: 8px;
+    border-radius: 5px;
+    border: none;
+}.take::placeholder {
+    color: #202020;
+    font-weight: normal;
+}.inputarea button{
+    width: 40px;
+    margin: 0 0 0 10px;
+    border: none;
+    padding: 0;
+    background-color: #e0e0e0;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+.completed {
+    text-decoration: line-through;
+    color: grey;
+}
